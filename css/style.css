@@ -1,7 +1,5 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-image: linear-gradient(rgb(118, 209, 221), rgb(255, 255, 255));
-
 }
 
 nav {
@@ -10,16 +8,15 @@ nav {
     font-weight: 700;
 }
 
-
-#head {
-    padding: 3% 15% 7%;
+h3 {
+    font-weight: 300;
 }
 
-#title-text {
-    padding: 10% 0 0;
+p {
+    font-size: 18px;
 }
 
-/* Nav */
+/* Navbar */
 
 .nav-item {
     margin: 0 auto;
@@ -62,3 +59,52 @@ nav {
     opacity: 1;
     transform: translateY(0px);
 }
+
+/* Main Header */
+#head {
+    padding: 3% 15% 7%;
+}
+
+#title-text {
+    padding: 10% 0 0%;
+}
+
+#headshot-img img {
+    height: auto;
+    width: 25vh;
+    padding: 5% 0 0;
+}
+
+/* Bio Section */
+
+.bio {
+    padding: 0 20% 0 20%;
+}
+
+@media (max-width: 1015px) {
+    .bio {
+        padding: 0 15% 0 15%;
+    }
+}
+
+@media (max-width: 770px) {
+    .bio {
+        padding: 15px;
+    }
+}
+
+/* .left-list {
+    padding-left: 35%;
+}
+
+@media (max-width: 1015px) {
+    .left-list {
+        padding-left: 15%;
+    }
+}
+
+@media (max-width: 770px) {
+    .left-list {
+        padding-left: 15px;
+    }
+} */
