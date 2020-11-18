@@ -18,3 +18,47 @@ nav {
 #title-text {
     padding: 10% 0 0;
 }
+
+/* Nav */
+
+.nav-item {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav-item a {
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+}
+
+.topBottomBordersOut a:before,
+.topBottomBordersOut a:after {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.5);
+    content: "";
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.topBottomBordersOut a:before {
+    top: 0px;
+    transform: translateY(10px);
+}
+
+.topBottomBordersOut a:after {
+    bottom: 0px;
+    transform: translateY(-10px);
+}
+
+.topBottomBordersOut a:hover:before,
+.topBottomBordersOut a:hover:after {
+    opacity: 1;
+    transform: translateY(0px);
+}
