@@ -18,6 +18,10 @@ p {
 
 /* Navbar */
 
+.fixed-top {
+    padding: 2rem 5rem 0;
+}
+
 .nav-item {
     margin: 0 auto;
     text-align: center;
@@ -62,7 +66,8 @@ p {
 
 /* Main Header */
 #head {
-    padding: 1% 15% 7%;
+    padding: 5% 15% 7%;
+    background-color: rgb(124, 177, 111);
 }
 
 #title-text {
@@ -77,6 +82,10 @@ p {
 
 /* Bio Section */
 
+#short-bio {
+    padding: 5% 0%;
+}
+
 .bio {
     padding: 0 20% 0 20%;
 }
@@ -90,6 +99,10 @@ p {
 @media (max-width: 770px) {
     .bio {
         padding: 15px;
+    }
+
+    .fixed-top {
+        padding: 1rem 1rem 4.5rem;
     }
 }
 
