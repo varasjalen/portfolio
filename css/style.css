@@ -19,7 +19,7 @@ p {
 /* Navbar */
 
 .fixed-top {
-    padding: 2rem 5rem 0;
+    padding: 1rem 5rem 1rem;
 }
 
 .nav-item {
@@ -62,6 +62,15 @@ p {
 .topBottomBordersOut a:hover:after {
     opacity: 1;
     transform: translateY(0px);
+}
+
+.scrolled {
+    background-color: rgb(201, 233, 142) !important;
+    transition: background-color 200ms linear;
+}
+
+.navbar.navbar-brand:hover {
+    color: rgb(219, 0, 0);
 }
 
 /* Main Header */
