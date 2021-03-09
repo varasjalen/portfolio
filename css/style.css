@@ -65,7 +65,7 @@ p {
 }
 
 .scrolled {
-    background-color: rgb(201, 233, 142) !important;
+    background-color: rgb(156, 211, 165) !important;
     transition: background-color 200ms linear;
 }
 
@@ -76,7 +76,7 @@ p {
 /* Main Header */
 #head {
     padding: 5% 15% 7%;
-    background-color: rgb(124, 177, 111);
+    background-color: rgb(111, 177, 133);
 }
 
 #title-text {
